@@ -47,6 +47,7 @@
                               <Label fx:id="nameLabel" GridPane.columnIndex="2" />
                               <Label fx:id="creditsLabel" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                               <Label fx:id="bdLabel" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" onAction="#changeName" text="Change" GridPane.rowIndex="1" />
                            </children>
                         </GridPane>
                      </children>
